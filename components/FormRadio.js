@@ -1,5 +1,5 @@
 const FormRadio = ({ name, label, value, onChange }) => (
-    <label className="flex flex-row items-center cursor-pointer">
+    <label className="flex flex-row items-center cursor-pointer  text-xl">
         <div className="relative rounded-full border-2 border-gray-700 shadow-inner mr-4">
             <input
                 type="radio"

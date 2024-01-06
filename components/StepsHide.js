@@ -33,9 +33,9 @@ const StepsHide = () => {
     };
 
     return (
-        <form id="form" className="grid gap-32">
+        <form id="form" className="grid gap-5">
             <div>
-                <p className="mb-8">
+                <p className="mb-8 text-xl ">
                     Add the image you want to hide the files inside
                 </p>
                 <FormFiles
@@ -46,11 +46,11 @@ const StepsHide = () => {
                 />
             </div>
             <div>
-                <p className="mb-8">Add the files you would like to hide</p>
+                <p className="mb-8  text-xl ">Add the files you would like to hide</p>
                 <FormFiles multiple files={files} setFiles={setFiles} />
             </div>
             <div>
-                <p className="mb-8">Choose the compression level</p>
+                <p className="mb-8  text-xl ">Choose the compression level</p>
                 <FormRange
                     min={0}
                     max={9}
@@ -60,7 +60,7 @@ const StepsHide = () => {
                 />
             </div>
             <div>
-                <p className="mb-8">
+                <p className="mb-8  text-xl ">
                     Choose and confirm password{" "}
                     <span className="text-gray-400">(optional)</span>
                 </p>

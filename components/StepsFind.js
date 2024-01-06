@@ -27,9 +27,9 @@ const StepsFind = () => {
     };
 
     return (
-        <form id="form" className="grid gap-32">
+        <form id="form" className="grid gap-10">
             <div>
-                <p className="mb-8">
+                <p className="mb-8 text-xl">
                     Add the image you want to retrieve files from within
                 </p>
                 <FormFiles
@@ -40,7 +40,7 @@ const StepsFind = () => {
                 />
             </div>
             <div>
-                <p className="mb-8">
+                <p className="mb-8 text-xl">
                     Enter the password used to hide the files{" "}
                     <span className="text-gray-400">(may be blank)</span>
                 </p>
